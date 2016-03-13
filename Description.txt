@@ -1,0 +1,10 @@
+Solutia este implementata in Python.
+Solutia foloseste modulele Numpy 1.10.4 si Shapely 1.5.13.
+
+Pentru parsare folosesc regex-uri.
+Pentru calcularea pozitiilor figurilor dupa rotatii si translatii ma folosesc de coordonatele omogene si de matricele de
+transformare pentru translatii si rotatii.
+Clasa Context este folosita pentru salvarea contextului in cazul instructiunilor daca-altfel-gata.
+Clasa Figure retine matricea punctelor ce alcatuiesc figura.
+
+Usage: python eminescu.py [input file] [output file]
